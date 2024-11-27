@@ -3,11 +3,11 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"flutter_bootstrap.js": "6968ff0c9d39ca48c900813854350f1d",
+const RESOURCES = {"flutter_bootstrap.js": "36d74748e146727577365c27f0815f59",
 "version.json": "ff966ab969ba381b900e61629bfb9789",
 "index.html": "6720ab6b333136ce0eefa285bfe41af8",
 "/": "6720ab6b333136ce0eefa285bfe41af8",
-"main.dart.js": "6634dc5f139628907e899a283fb97990",
+"main.dart.js": "3a208ed4700d59743e1622acb7078cdd",
 "flutter.js": "f393d3c16b631f36852323de8e583132",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
@@ -17,7 +17,7 @@ const RESOURCES = {"flutter_bootstrap.js": "6968ff0c9d39ca48c900813854350f1d",
 "manifest.json": "740bb4e0d4cac0474fdacb661dbfb4e7",
 "assets/AssetManifest.json": "8a270688bc251a37f1b6d4917cc9f06f",
 "assets/NOTICES": "4a7a365868da65af5ef29fe879e8edae",
-"flutter_v3_library_demo/assets/FontManifest.json": "543eb3621d13664783f6026365f6a8b9",
+"assets/FontManifest.json": "ab323262a29bd232b03300bba46fd92d",
 "assets/AssetManifest.bin.json": "0881424bfec65155bb507a845d8f1adf",
 "assets/packages/mhi_flutter_v3_library/assets/fonts/Public_Sans/PublicSans-Regular.ttf": "9c75b9011cf22587c803668ff3121063",
 "assets/packages/mhi_flutter_v3_library/assets/fonts/Public_Sans/PublicSans-ExtraBold.ttf": "80394553658c439d786b69831d18a97d",
@@ -586,7 +586,7 @@ const CORE = ["main.dart.js",
 "index.html",
 "flutter_bootstrap.js",
 "assets/AssetManifest.bin.json",
-"flutter_v3_library_demo/assets/FontManifest.json"];
+"assets/FontManifest.json"];
 
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
